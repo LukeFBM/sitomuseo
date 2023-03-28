@@ -1,0 +1,85 @@
+body {margin: 0; background: rgb(251, 204, 159) ;}
+.logo {width: 51px;}
+table {width: 100%;}
+.immaginiCri {width: 100%;}
+
+.menu {background: white; display: block; 
+    text-decoration: none; 
+    color: black;
+    padding: 15px 25px; font-size: 1.2em; box-sizing: border-box; border-right: solid 2px rgb(251, 204, 159); border-left: solid 2px rgb(251, 204, 159)}
+table {background: white;}
+
+
+/* CSS UTILIZZATO PER PAGINA PERCORSI */
+
+.title {grid-area: title;}
+.text {grid-area: text;}
+.externallink {grid-area: externallink;}
+.map {grid-area: map;}
+.refound {grid-area: refound;}
+
+.percorsi {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    font-size: 40px;
+
+}
+
+.container_esposizione {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+.container_text {
+    text-align: justify;
+    width: 950px;
+    display: grid;
+    grid-template-areas: 
+    'title title title'
+    'text text text' 
+    'map externallink . '
+    'refound . . ';
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    gap: 10px;
+    padding: 10px;
+}
+
+.title{
+    text-align: center;
+    font-style: italic;
+    margin-top: -15px;
+}
+
+.refound {
+    text-decoration: none;
+}
+
+.paesaggi {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+.sitoesterno {
+    width: 100px;
+}
+
+.solid {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 85%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}

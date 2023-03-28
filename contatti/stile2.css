@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(251, 204, 159);
+    margin: 0;
+}
+
+.logo {
+    width: 51px;
+}
+
+table {
+    width: 100%;
+    background: white
+}
+
+.img1 {
+    width: 100%;
+}
+
+
+.menu {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 15px 25px;
+    font-size: 1.2em;
+    box-sizing: border-box;
+    border-right: solid 2px rgb(251, 204, 159);
+    border-left: solid 2px rgb(251, 204, 159)
+}
+
+
+/* CSS UTILIZZATO PER PAGINA CONTATTACI */
+.contatti {
+    text-align: center;
+
+}
+
+.container_contattaci {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+
+
+}
+
+.container_map {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin: 30px;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.inviamail {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}
+
+.form1 {
+    justify-content: center;
+    border: 1px solid #000000;
+    background-color: blanchedalmond;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 20px;
+}
